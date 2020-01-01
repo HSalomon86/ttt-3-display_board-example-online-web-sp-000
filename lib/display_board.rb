@@ -2,15 +2,5 @@
 def display_board
   cellrow = "   |   |   "
   lines = "-----------"
-
-  def tictactoe
-    cellrow = "   |   |   "
-    lines = "-----------"
-    board = puts cellrow
-    puts lines
-    puts cellrow
-    puts lines
-    puts cellrow
-  end
-  return board
+return cellrow
 end
