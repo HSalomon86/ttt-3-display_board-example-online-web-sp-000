@@ -4,6 +4,8 @@ def display_board
   lines = "-----------"
 
   def tictactoe
+    cellrow = "   |   |   "
+    lines = "-----------"
     board = puts cellrow
     puts lines
     puts cellrow
