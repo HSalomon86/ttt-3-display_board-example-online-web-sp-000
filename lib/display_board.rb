@@ -2,5 +2,5 @@
 def display_board
   cellrow = "   |   |   "
   lines = "-----------"
-return cellrow
+return puts cellrow puts lines
 end
